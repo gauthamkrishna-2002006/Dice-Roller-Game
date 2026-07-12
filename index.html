@@ -4,14 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dice Roller Game</title>
-
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1>🎲 Dice Roller Game</h1>
+    <div class="container">
+        <h1>🎲 Dice Roller Game</h1>
 
-    <button onclick="rollDice()">Roll Dice</button>
+        <div id="dice" class="dice">🎲</div>
+
+        <h2 id="result">Click the button to roll!</h2>
+
+        <button onclick="rollDice()">Roll Dice</button>
+    </div>
 
     <script src="script.js"></script>
 
